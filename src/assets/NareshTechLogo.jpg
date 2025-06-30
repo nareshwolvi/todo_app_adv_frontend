@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="200" fill="#f8f8f8" />
+  
+  <!-- Outer ring -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#3d5afe" stroke-width="15" />
+  
+  <!-- Tech element - circuit pattern -->
+  <path d="M150,250 L200,250 M300,250 L350,250 M250,150 L250,200 M250,300 L250,350" 
+        stroke="#333" stroke-width="8" stroke-linecap="round" />
+  <path d="M180,180 L220,220 M280,180 L320,220 M180,320 L220,280 M280,320 L320,280" 
+        stroke="#333" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Central N letter -->
+  <path d="M200,200 L200,300 L300,200 L300,300" 
+        fill="none" stroke="#3d5afe" stroke-width="20" stroke-linejoin="round" stroke-linecap="round" />
+  
+  <!-- Tech text -->
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">TECH</text>
+  
+  <!-- Naresh text -->
+  <text x="250" y="375" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#666">NARESH</text>
+  
+  <!-- Small dots representing connectivity -->
+  <circle cx="150" cy="250" r="5" fill="#3d5afe" />
+  <circle cx="350" cy="250" r="5" fill="#3d5afe" />
+  <circle cx="250" cy="150" r="5" fill="#3d5afe" />
+  <circle cx="250" cy="350" r="5" fill="#3d5afe" />
+  
+  <!-- Style definitions for different color themes -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      circle[fill="#f8f8f8"] { fill: #121212; }
+      text[fill="#333"] { fill: #e0e0e0; }
+      text[fill="#666"] { fill: #aaaaaa; }
+      path[stroke="#333"] { stroke: #e0e0e0; }
+    }
+  </style>
+</svg>
