@@ -7,7 +7,7 @@ async function updateTaskAPI(values, taskId, handleResponse,handleError, setLoad
         const baseUrl = import.meta.env.VITE_APP_API_BASE_URL;
 
         // Endpoint for fetching the data with id
-        const endpoint = `/api/v2//task/${taskId}`;
+        const endpoint = `/api/v2/task/${taskId}`;
 
         // Construct the full URL using URL endpoint
         // const url = new URL(baseUrl, endpoint) -> Using Constructor

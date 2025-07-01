@@ -3,14 +3,14 @@ async function fetchTaskAPI(handleResponse, handleError, options={}){
         
         // Base URL for API end point -> our own API
         const baseUrl = import.meta.env.VITE_APP_API_BASE_URL;
-
+console.log("baseUrl ",baseUrl)
         // Endpoint for fetching the data
         const endpoint = "/api/v2/tasks";
 
         // Construct the full URL using URL endpoint
         // const url = new URL(baseUrl, endpoint) -> Using Constructor
         const url = new URL(endpoint, baseUrl);
-        // console.log(url);
+        console.log(url);
         
 
         // Append Sort option as query parameter if provided (FOR SORTING)
